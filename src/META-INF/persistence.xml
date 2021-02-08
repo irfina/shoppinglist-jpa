@@ -6,9 +6,10 @@
     <class>shoppinglist.entity.DaftarBelanjaDetil</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/demo_pbp"/>
-      <property name="javax.persistence.jdbc.user" value="userdemo"/>
+      <property name="javax.persistence.jdbc.user" value="dbexerphi_dba"/>
       <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
-      <property name="javax.persistence.jdbc.password" value="demo"/>
+      <property name="javax.persistence.jdbc.password" value="admin"/>
+      <property name="eclipselink.logging.level" value="FINE"/>
     </properties>
   </persistence-unit>
 </persistence>
